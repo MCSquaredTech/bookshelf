@@ -1,9 +1,10 @@
 import { Outlet } from "react-router-dom"
+import LayoutHeader from "../components/LayoutHeader"
 
 const Layout = () => {
   return (
     <div>
-      World
+      <LayoutHeader />
       <Outlet />
     </div>
   )
