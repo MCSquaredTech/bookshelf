@@ -1,22 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+// React Router Dom Components 
+import { createBrowserRouter, 
+         createRoutesFromElements, 
+         RouterProvider, Route  } from "react-router-dom"; 
+// Imported Pages 
+import Layout from './pages/Layout';
+import Home from './pages/Home';
+import Books, { bookLoader } from './pages/Books';
+
+// Imported Components 
+
+// Import Cascading Style Sheets 
+import './books.css';
+
+// Router Configuration 
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route element={<Layout />} >
+      <Route index element={<Home />} /> 
+      <Route path="books" 
+             element={<Books /> }
+             loader={bookLoader} /> 
+    </Route>
+  )
+)
+
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Hello</h1>
+        <RouterProvider router={router} />
       </header>
     </div>
   );

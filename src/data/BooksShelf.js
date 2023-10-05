@@ -1,0 +1,222 @@
+[
+    {
+     "type": "Business",
+     "title": "Good to Great",
+     "author": "Jim Collins",
+     "publisher": "HarperBusiness",
+     "publication": "October 16, 2001",
+     "description": "Jim Collins examines why some companies achieve greatness and long-term success, identifying key principles and strategies that set them apart from their competitors.",
+     "image": "https://bit.ly/3Q67TV4",
+     "hyperlink": "hyperlink",
+     "id": "1"
+    },
+    {
+     "type": "Business",
+     "title": "The Lean Startup",
+     "author": "Eric Ries",
+     "publisher": "Crown Business",
+     "publication": "September 13, 2011",
+     "description": "Eric Ries introduces the concept of lean thinking and offers a methodology for startups to develop and grow by continuously adapting to market feedback.",
+     "image": "https://bit.ly/46tFsFQ",
+     "hyperlink": "hyperlink",
+     "id": "2"
+    },
+    {
+     "type": "Business",
+     "title": "Start with Why",
+     "author": "Simon Sinek",
+     "publisher": "Portfolio",
+     "publication": "October 29, 2009",
+     "description": "Simon Sinek explores the importance of defining a clear 'why' or purpose for a business and how this can inspire both employees and customers.",
+     "image": "https://bit.ly/3Q2XSrE",
+     "hyperlink": "hyperlink",
+     "id": "3"
+    },
+    {
+     "type": "Business",
+     "title": "Thinking, Fast and Slow",
+     "author": "Daniel Kahneman",
+     "publisher": "Farrar, Straus and Giroux",
+     "publication": "October 25, 2011",
+     "description": "Nobel laureate Daniel Kahneman delves into the psychology of decision-making, highlighting the two cognitive systems that drive how we think and make choices.",
+     "image": "https://bit.ly/46hr57J",
+     "hyperlink": "hyperlink",
+     "id": "4"
+    },
+    {
+     "type": "Business",
+     "title": "The Innovator's Dilemma",
+     "author": "Clayton Christensen",
+     "publisher": "HarperBusiness",
+     "publication": "May 10, 2016 (Revised Edition)",
+     "description": "Clayton Christensen discusses the challenges established companies face when dealing with disruptive innovations and offers strategies for success.",
+     "image": "https://bit.ly/46hr57J",
+     "hyperlink": "hyperlink",
+     "id": "5"
+    },
+    {
+     "type": "Business",
+     "title": "Drive: The Surprising Truth About What Motivates Us",
+     "author": "Daniel H. Pink",
+     "publisher": "Riverhead Books",
+     "publication": "December 29, 2009",
+     "description": "Daniel Pink examines the science of motivation, arguing that autonomy, mastery, and purpose are the key drivers of high performance.",
+     "image": "https://bit.ly/46hr57J",
+     "hyperlink": "hyperlink",
+     "id": "6"
+    },
+    {
+     "type": "Business",
+     "title": "Zero to One",
+     "author": "Peter Thiel",
+     "publisher": "Crown Business",
+     "publication": "September 16, 2014",
+     "description": "Peter Thiel discusses the principles of entrepreneurship and innovation, emphasizing the importance of creating something truly unique and valuable.",
+     "image": "https://bit.ly/46hr57J",
+     "hyperlink": "hyperlink",
+     "id": "7"
+    },
+    {
+     "type": "Business",
+     "title": "Leaders Eat Last",
+     "author": "Simon Sinek",
+     "publisher": "Portfolio",
+     "publication": "January 7, 2014",
+     "description": "Simon Sinek explores the role of leadership in creating a positive and supportive work culture where employees feel valued and motivated.",
+     "image": "https://bit.ly/46hr57J",
+     "hyperlink": "hyperlink",
+     "id": "8"
+    },
+    {
+     "type": "Business",
+     "title": "The Art of War",
+     "author": "Sun Tzu",
+     "publisher": "Various (public domain)",
+     "publication": "Estimated 5th century BC",
+     "description": "An ancient Chinese text on strategy and tactics, 'The Art of War' offers timeless wisdom that can be applied to business and leadership.",
+     "image": "https://bit.ly/46hr57J",
+     "hyperlink": "hyperlink",
+     "id": "9"
+    },
+    {
+     "type": "Business",
+     "title": "Sapiens: A Brief History of Humankind",
+     "author": "Yuval Noah Harari",
+     "publisher": "Harper",
+     "publication": "February 10, 2015",
+     "description": "While not a traditional business book, Harari's exploration of the history and future of humanity provides valuable insights for business leaders seeking a broader perspective on society and economics.",
+     "image": "https://bit.ly/46hr57J",
+     "hyperlink": "hyperlink",
+     "id": "10"
+    },
+    {
+     "type": "Science",
+     "title": "A Brief History of Time",
+     "author": "Stephen Hawking",
+     "publisher": "Bantam",
+     "publication": "1988",
+     "description": "Stephen Hawking explores complex topics in theoretical physics, making them accessible to a general audience and delving into the nature of the universe, black holes, and time.",
+     "image": "https://bit.ly/46hr57J",
+     "hyperlink": "hyperlink",
+     "id": "11"
+    },
+    {
+     "type": "Science",
+     "title": "The Selfish Gene",
+     "author": "Richard Dawkins",
+     "publisher": "Oxford University Press",
+     "publication": "1976",
+     "description": "Richard Dawkins introduces the concept of the 'selfish gene,' explaining how genes drive evolution and influence behavior.",
+     "image": "https://bit.ly/46hr57J",
+     "hyperlink": "hyperlink",
+     "id": "12"
+    },
+    {
+     "type": "Science",
+     "title": "Cosmos",
+     "author": "Carl Sagan",
+     "publisher": "Random House",
+     "publication": "1980",
+     "description": "Carl Sagan takes readers on a journey through the universe, exploring topics in astronomy, cosmology, and the search for extraterrestrial life.",
+     "image": "https://bit.ly/46hr57J",
+     "hyperlink": "hyperlink",
+     "id": "13"
+    },
+    {
+     "type": "Science",
+     "title": "The Double Helix: A Personal Account of the Discovery of the Structure of DNA",
+     "author": "James D. Watson",
+     "publisher": "Atheneum",
+     "publication": "1968",
+     "description": "James D. Watson recounts the race to discover the structure of DNA, offering a personal perspective on this groundbreaking scientific achievement.",
+     "image": "https://bit.ly/46hr57J",
+     "hyperlink": "hyperlink",
+     "id": "14"
+    },
+    {
+     "type": "Science",
+     "title": "Silent Spring",
+     "author": "Rachel Carson",
+     "publisher": "Houghton Mifflin",
+     "publication": "1962",
+     "description": "Rachel Carson's influential work raised awareness about the environmental impact of pesticides and contributed to the modern environmental movement.",
+     "image": "https://bit.ly/46hr57J",
+     "hyperlink": "hyperlink",
+     "id": "15"
+    },
+    {
+     "type": "Science",
+     "title": "The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory",
+     "author": "Brian Greene",
+     "publisher": "W. W. Norton & Company",
+     "publication": "1999",
+     "description": "Brian Greene explores the world of theoretical physics, including the concept of string theory, and the search for a unified theory of the universe.",
+     "image": "https://bit.ly/46hr57J",
+     "hyperlink": "hyperlink",
+     "id": "16"
+    },
+    {
+     "type": "Science",
+     "title": "The Emperor of All Maladies: A Biography of Cancer",
+     "author": "Siddhartha Mukherjee",
+     "publisher": "Scribner",
+     "publication": "2010",
+     "description": "Siddhartha Mukherjee traces the history of cancer, from its earliest mentions in ancient texts to modern scientific understanding and treatment.",
+     "image": "https://bit.ly/46hr57J",
+     "hyperlink": "hyperlink",
+     "id": "17"
+    },
+    {
+     "type": "Science",
+     "title": "The Immortal Life of Henrietta Lacks",
+     "author": "Rebecca Skloot",
+     "publisher": "Crown Publishing Group",
+     "publication": "2010",
+     "description": "This book tells the story of Henrietta Lacks, whose cells were used in groundbreaking medical research, and explores issues of ethics, race, and scientific discovery.",
+     "image": "https://bit.ly/46hr57J",
+     "hyperlink": "hyperlink",
+     "id": "18"
+    },
+    {
+     "type": "Science",
+     "title": "The Demon-Haunted World: Science as a Candle in the Dark",
+     "author": "Carl Sagan",
+     "publisher": "Random House",
+     "publication": "1995",
+     "description": "Carl Sagan advocates for scientific thinking and critical skepticism in a world where pseudoscience and superstition abound.",
+     "image": "https://bit.ly/46hr57J",
+     "hyperlink": "hyperlink",
+     "id": "19"
+    },
+    {
+     "type": "Science",
+     "title": "Gödel, Escher, Bach: An Eternal Golden Braid",
+     "author": "Douglas Hofstadter",
+     "publisher": "Basic Books",
+     "publication": "1979",
+     "description": "Douglas Hofstadter explores the connections between mathematics, art, and music, using the works of Gödel, Escher, and Bach as a starting point for a journey into the nature of consciousness and creativity.",
+     "image": "https://bit.ly/46hr57J",
+     "hyperlink": "hyperlink",
+     "id": "20"
+    }
+   ]
