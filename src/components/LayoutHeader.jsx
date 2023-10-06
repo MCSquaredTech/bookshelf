@@ -4,12 +4,12 @@ const LayoutHeader = () => {
   return (
     <div className="nav">
       {/* Site Title  */}
-      <Link to="/">Book Shelf</Link>
+      <Link to="/" className='nav-title'>Book Shelf</Link>
       <ul>
-        <li>
+        <li className='nav-menu'>
             <NavLink to="/home">Home</NavLink>
         </li>
-        <li>
+        <li className='nav-menu'>
             <NavLink to="/books">Books</NavLink>
         </li>
       </ul>

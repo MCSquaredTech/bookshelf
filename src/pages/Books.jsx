@@ -6,8 +6,9 @@ const Books = () => {
     const data = useLoaderData();
 
   return (
-    <div className="nav">
-          <BookList data={data} />
+  
+    <div className="bookPage">
+      <BookList data={data} />
     </div>
   )
 }

@@ -8,15 +8,15 @@ const Book = ({ data }) => {
     <MDBRow>
         <Link to={id} >
           <div className='bookCard'>
-              <span className="bookImage">
+              <div className="bookImage">
                 <img src={image} className='img-fluid rounded' alt='' />
-              </span>
-              <span className="bookText">
+              </div>
+              <div className="bookText">
                     <p><strong>{type}</strong></p>
                     <hr />
                     <h4>{title}</h4>
                     <p>{description}</p>
-              </span>
+              </div>
           </div>
         </Link>
     </MDBRow>

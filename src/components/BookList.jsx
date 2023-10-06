@@ -10,11 +10,14 @@ const BookList = ({ data }) => {
       })
 
   return (
-    <div className="listNav">
-      <ul>
-        {bookList}
-      </ul>
+    <div className="container">
+      <div className="col-md-12">
+        <ul class="nav">
+          {bookList}
+        </ul>
+      </div>
     </div>
+    
   )
 }
 

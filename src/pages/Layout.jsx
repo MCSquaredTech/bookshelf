@@ -3,9 +3,14 @@ import LayoutHeader from "../components/LayoutHeader"
 
 const Layout = () => {
   return (
-    <div>
-      <LayoutHeader />
-      <Outlet />
+    <div className="container">
+      <div className="row">
+        <div className="col-md-12">
+          <LayoutHeader />
+          <Outlet />
+        </div>
+      </div>
+      
     </div>
   )
 }
