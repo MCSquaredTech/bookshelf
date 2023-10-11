@@ -3,15 +3,12 @@ import LayoutHeader from "../components/LayoutHeader"
 
 const Layout = () => {
   return (
-    <div className="container">
       <div className="row">
-        <div className="col-md-12">
+        <div className="col">
           <LayoutHeader />
           <Outlet />
         </div>
       </div>
-      
-    </div>
   )
 }
 

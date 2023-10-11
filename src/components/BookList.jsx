@@ -1,10 +1,10 @@
-import Book from "./Book"
+import BookView from "./BookView"
 
 const BookList = ({ data }) => {
     const bookList = data.map((book) => {
         return (
           <li key={book.id}>
-            <Book data={book} /> 
+            <BookView data={book} /> 
           </li>
         )
       })

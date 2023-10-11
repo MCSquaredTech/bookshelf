@@ -6,10 +6,12 @@ const Books = () => {
     const data = useLoaderData();
 
   return (
-  
-    <div className="bookPage">
-      <BookList data={data} />
+    <div className="contianer">
+      <div className="bookPage">
+        <BookList data={data} />
+      </div>
     </div>
+    
   )
 }
 
