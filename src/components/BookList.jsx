@@ -12,7 +12,7 @@ const BookList = ({ data }) => {
   return (
     <div className="container">
       <div className="col-md-12">
-        <ul class="nav">
+        <ul className="nav">
           {bookList}
         </ul>
       </div>

@@ -6,11 +6,13 @@ import { createBrowserRouter,
 import Layout from './pages/Layout';
 import Home from './pages/Home';
 import Books, { bookLoader } from './pages/Books';
+import Book, { bookDetailLoader } from './pages/Book'; 
 
 // Imported Components 
 
 // Import Cascading Style Sheets 
 import './books.css';
+import book from "./pages/Book";
 
 // Router Configuration 
 const router = createBrowserRouter(
@@ -19,7 +21,11 @@ const router = createBrowserRouter(
       <Route index element={<Home />} /> 
       <Route path="books" 
              element={<Books /> }
-             loader={bookLoader} /> 
+             loader={bookLoader}  />
+        <Route path="books/:id"
+               element={<Book />}
+               loader={bookDetailLoader} />
+      
     </Route>
   )
 )
