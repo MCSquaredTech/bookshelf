@@ -1,17 +1,31 @@
 * { 
     box-sizing: border-box;
+    background-color: #333;
+    width: auto;
 }
 
 body { 
     margin: 0; 
     padding: 0; 
+    
 
 }
 
 .container { 
     display: flex;
     flex: row wrap; 
+    width: 1024px;
     justify-content: space-between;
+}
+
+.homeImageContainer { 
+    width: 575px; 
+    height: auto; 
+}
+
+.homeTextContainer { 
+    width: 450px; 
+    height: auto; 
 }
 
 .bookImageContainer { 
@@ -51,6 +65,20 @@ body {
     flex-wrap: wrap;
 }
 
+.homeImage {
+    display: block;
+    padding: 10px; 
+    margin: 10px; 
+    height: auto; 
+    width: 550px;
+}
+
+.homeText { 
+    display: block; 
+    padding: 2px;
+    width: 450px;
+}
+
 .bookImage { 
     display: block;
     padding: 10px;
@@ -60,7 +88,7 @@ body {
 }
 
 .bookText { 
-    display: block; 
+    display: flex; 
     padding: 2px;
     width: 400px;
     height: 350px;
