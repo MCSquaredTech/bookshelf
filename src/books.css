@@ -39,16 +39,6 @@ body {
     height: auto; 
 }
 
-.nav { 
-    background-color: #333;
-    color: #ccc; 
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem; 
-    padding: 0 2rem;
-}
-
 .bookPage { 
     background-color: #333;
     color: #ccc; 
@@ -94,6 +84,16 @@ body {
     height: 350px;
 }
 
+.nav { 
+    background-color: #333;
+    color: #ccc; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem; 
+    padding: 0 2rem;
+}
+
 .nav ul { 
     font-size: 1rem;
     padding: 0; 
@@ -119,6 +119,7 @@ body {
 }
 
 .nav-menu {
+    cursor: pointer;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.125em;
     margin: 0 1em;
@@ -127,4 +128,9 @@ body {
 .v-line { 
     border-right: 1px solid #aaa;
     margin: 10px;
+}
+
+.disabled-menu a:hover { 
+    cursor: default;
+    color: inherit; 
 }

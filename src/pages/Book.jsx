@@ -3,12 +3,11 @@ import BookDetails from '../components/BookDetails';
 import BookMenu from '../components/BookMenu';
 
 const Book = () => {
-    const book = useLoaderData();
-
+  const book = useLoaderData();
+  
   return (
     <>
-    <BookMenu />
-    
+    <BookMenu menu={'detail'}/>
     <div className="bookPage">
         <BookDetails data={book} />
     </div>

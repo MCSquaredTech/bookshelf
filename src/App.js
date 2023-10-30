@@ -12,7 +12,6 @@ import Book, { bookDetailLoader } from './pages/Book';
 
 // Import Cascading Style Sheets 
 import './books.css';
-import book from "./pages/Book";
 
 // Router Configuration 
 const router = createBrowserRouter(

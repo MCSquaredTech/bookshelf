@@ -7,7 +7,7 @@ const LayoutHeader = () => {
       <Link to="/" className='nav-title'>Book Shelf</Link>
       <ul>
         <li className='nav-menu'>
-            <NavLink to="/home">Home</NavLink>
+            <NavLink to="/">Home</NavLink>
         </li>
         <li className='nav-menu'>
             <NavLink to="/books">Books</NavLink>

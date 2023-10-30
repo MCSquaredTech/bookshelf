@@ -1,16 +1,18 @@
 import { useLoaderData } from "react-router-dom";
 import BookList from "../components/BookList"
+import BookMenu from "../components/BookMenu";
 
 
 const Books = () => {
-    const data = useLoaderData();
+  const data = useLoaderData();
 
   return (
-    <div className="contianer">
+    <>
+      <BookMenu menu={'books'} /> 
       <div className="bookPage">
         <BookList data={data} />
       </div>
-    </div>
+    </>
     
   )
 }
