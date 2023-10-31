@@ -1,9 +1,14 @@
 import React, { useState } from 'react'
 
-const BookForm = () => {
-    const [ book, setBook ] = useState({ type: '', title: '', 
-            author: '', publisher: '', publication: '', description: '', 
-            image: '', hyperlink: '', brief: '' });
+const BookForm = ({currentBook}) => {
+    console.log(currentBook);
+    if (currentBook === null) {
+        currentBook = [{type: "", title: '', author: '', publisher: '', 
+        publication: '', description: '', image: '', hyperlink: '', breif: ''}]
+    }
+    const [ book, setBook ] = useState(currentBook);
+
+    const { type, title, author, publisher, publication, description, image, hyperlink, breif } = book; 
 
     const changeHandler = (event) => { 
        const { name, value } = event.target;   
@@ -75,7 +80,7 @@ const BookForm = () => {
                 <label htmlFor="brief">Brief Description: </label>
                 <textarea type="text" 
                        name="brief"
-                       value={brief}
+                       value={breif}
                        onChange={changeHandler}  />
             </div>
         </div>
@@ -85,5 +90,5 @@ const BookForm = () => {
   )
 }
 
-export default BookFform
+export default BookForm
 

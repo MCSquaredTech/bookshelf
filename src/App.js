@@ -7,6 +7,8 @@ import Layout from './pages/Layout';
 import Home from './pages/Home';
 import Books, { bookLoader } from './pages/Books';
 import Book, { bookDetailLoader } from './pages/Book'; 
+import New from './pages/New';
+import Edit from './pages/Edit';
 
 // Imported Components 
 
@@ -19,11 +21,17 @@ const router = createBrowserRouter(
     <Route element={<Layout />} >
       <Route index element={<Home />} /> 
       <Route path="books" 
-             element={<Books /> }
-             loader={bookLoader}  />
+              element={<Books /> }
+              loader={bookLoader}  />
         <Route path="books/:id"
-               element={<Book />}
-               loader={bookDetailLoader} />
+              element={<Book />} 
+              loader={bookDetailLoader} />
+        <Route path="new" 
+               element={<New />} 
+               />
+        <Route path="edit" 
+               element={<Edit />}
+                />
       
     </Route>
   )

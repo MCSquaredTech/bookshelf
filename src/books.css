@@ -7,8 +7,6 @@
 body { 
     margin: 0; 
     padding: 0; 
-    
-
 }
 
 .container { 
@@ -125,12 +123,12 @@ body {
     margin: 0 1em;
 }
 
+.disabled a:hover {
+    color: inherit;
+    cursor: default;
+}
+
 .v-line { 
     border-right: 1px solid #aaa;
     margin: 10px;
-}
-
-.disabled-menu a:hover { 
-    cursor: default;
-    color: inherit; 
 }

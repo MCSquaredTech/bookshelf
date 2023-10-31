@@ -8,7 +8,7 @@ const Books = () => {
 
   return (
     <>
-      <BookMenu menu={'books'} /> 
+      <BookMenu menu={'books'} book={null} /> 
       <div className="bookPage">
         <BookList data={data} />
       </div>
