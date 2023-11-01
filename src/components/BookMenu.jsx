@@ -3,7 +3,6 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'; 
 
 const BookMenu = ({ menu, book }) => {
-  console.log(book)
   let isDisabled; 
 
   if (menu === 'books' ) {
@@ -13,7 +12,6 @@ const BookMenu = ({ menu, book }) => {
   if (menu === 'detailed') { 
     isDisabled = true;
   }
-  console.log(isDisabled) 
 
   const handleDisable = (event) => { 
     event.preventDefault(); 
@@ -29,8 +27,7 @@ const BookMenu = ({ menu, book }) => {
           </li>
           <li className='nav-menu'>
             <NavLink to="/edit"
-              state={book={book}}
-            >Edit</NavLink> 
+              state={{book:{book}}}>Edit</NavLink> 
           </li>
           <li className='nav-menu'>
             <NavLink to="/delete">Delete</NavLink>
@@ -38,8 +35,7 @@ const BookMenu = ({ menu, book }) => {
         </ul> :
         <ul>
           <li className='nav-menu'>
-            <NavLink to="/new" 
-            state={book={book}} >New</NavLink>
+            <NavLink to="/new" >New</NavLink>
           </li>
           <li className='nav-menu disabled'>
             <NavLink to="/edit"

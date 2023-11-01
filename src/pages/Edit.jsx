@@ -1,11 +1,14 @@
 import React from 'react'
+import { useLocation } from 'react-router-dom';
 import BookForm from '../components/BookForm'
 
-const Edit = ({ book }) => {
-  console.log(book)
+const Edit = () => {
+  const location = useLocation();
+  const { book } =  location.state.book;
+
   return (
     <div className='bookPage'>
-      <BookForm book={book} />
+      <BookForm data={book} />
     </div>
   )
 }
