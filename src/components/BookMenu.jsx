@@ -27,7 +27,7 @@ const BookMenu = ({ menu, book }) => {
           </li>
           <li className='nav-menu'>
             <NavLink to="/edit"
-              state={{book:{book}}}>Edit</NavLink> 
+              state={{data:{book}}}>Edit</NavLink> 
           </li>
           <li className='nav-menu'>
             <NavLink to="/delete">Delete</NavLink>

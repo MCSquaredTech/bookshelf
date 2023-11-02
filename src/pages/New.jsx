@@ -5,10 +5,15 @@ import BookForm from '../components/BookForm';
 const New = () => {
   const book = [{type: "", title: '', author: '', publisher: '', 
   publication: '', description: '', image: '', hyperlink: '', breif: ''}]
+
+  const handleOnClick = (book) => { 
+    console.log(book); 
+
+  }
+
   return (
     <div className='bookPage'>
-      <h1>New Book Form</h1>
-      <BookForm data={book}/>
+      <BookForm data={book} caption={'New'} />
     </div>
   )
 }

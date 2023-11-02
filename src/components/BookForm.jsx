@@ -1,28 +1,31 @@
 import React, { useState } from 'react'
 
-const BookForm = ({data}) => {
-
-    const [ book, setBook ] = useState(data);
-
+const BookForm = ({data, caption}) => {
+    console.log(data)
+    const [ book, setBook ] = useState(data); 
     const { type, title, author, publisher, publication, description, image, hyperlink, brief } = book; 
 
     const changeHandler = (event) => { 
        const { name, value } = event.target;   
 
-       setBook((prevData) => {
-        return {...prevData, name: value}})
+       setBook(prevData => {
+            return {...prevData, [name]: value}})
     }
 
-  return (
+    const handleOnClick = () => { 
+        console.log(book);
+    }
+    
+    return (
     <div>
         <form>
-            <div className="flexPage">
-            <div className="flex-card-1">
-                <div className="new-book__controls">
+            <div className="flexPageContainer">
+                <div>
                     <div className="new-book__control">
                         <label htmlFor="type">Type: </label>
                         <input type="text" 
                             name="type"
+                            cols={50}
                             value={type}
                             onChange={changeHandler}  />
                     </div>
@@ -53,39 +56,49 @@ const BookForm = ({data}) => {
                             name="publication"
                             value={publication}
                             onChange={changeHandler}  />
-                    </div>         
-                </div>
-            </div>
-            <div className="flex-card-1">
-                <div className="new-book__control">
-                    <label htmlFor="description">Description: </label>
-                    <textarea type="text" 
-                        name="description"
-                        value={description}
-                        onChange={changeHandler}  />
-                </div>
-                <div className="new-book__control">
+                    </div> 
+                    <div className="new-book__control">
                     <label htmlFor="image">Image Path: </label>
                     <input type="text" 
                         name="image"
                         value={image}
                         onChange={changeHandler}  />
+                    </div>
+                    <div className="new-book__control">
+                        <label htmlFor="hyperlink">Hyper Link: </label>
+                        <input type="text" 
+                            name="hyperlink"
+                            value={hyperlink}
+                            onChange={changeHandler}  />
+                    </div>
                 </div>
-                <div className="new-book__control">
-                    <label htmlFor="hyperlink">Hyper Link: </label>
-                    <input type="text" 
-                        name="hyperlink"
-                        value={hyperlink}
-                        onChange={changeHandler}  />
-                </div>
-                <div className="new-book__control">
-                    <label htmlFor="brief">Brief Description: </label>
+                <div>
+                    <div className="new-book__control">
+                    <label htmlFor="description">Description: </label>
                     <textarea type="text" 
-                        name="brief"
-                        value={brief}
+                        name="description"
+                        cols={33}
+                        rows={8}
+                        value={description}
                         onChange={changeHandler}  />
+                    </div>
+                    
+                    <div className="new-book__control">
+                        <label htmlFor="brief">Brief Description: </label>
+                        <textarea type="text" 
+                            name="brief"
+                            cols={33}
+                            rows={5}
+                            value={brief}
+                            onChange={changeHandler}  />
+                    </div>
+                    <div>
+                        <button className="btn btn-primary"
+                                onClick={handleOnClick} >
+                            {caption}
+                        </button>
+                    </div>
                 </div>
-            </div>
             </div>
         </form>
     </div>
